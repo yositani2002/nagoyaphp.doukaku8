@@ -1,0 +1,29 @@
+{
+    "name": "nagoyaphp/doukaku8",
+    "description":" ",
+    "keywords":[
+    ],
+    "license": "BSD-3-Clause",
+    "autoload":{
+        "psr-4":{
+            "nagoyaphp\\doukaku8\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "nagoyaphp\\doukaku8\\": "tests/",
+            "nagoyaphp\\doukaku8\\": "tests/Fake"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    },
+  "require-dev": {
+    "phpunit/phpunit": "4.1.0"
+  }
+
+}
